@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+
+        h1{
+            color: #165885;
+            font-size: 64px;
+            font-weight: 600;
+            padding-bottom: 80px;
+            padding-top: 80px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        h2{
+            font-size: 50px;
+            padding-top: 48px;
+            padding-bottom: 11px;
+        }
+
+        section{
+            width: 80%;
+            padding-bottom: 20px;
+        }
+
+        .video{
+            text-align: center;
+        }
+
+        iframe{
+            width: 560px;
+            height: 315px;
+        }
+
+        @media (max-width: 705px) {
+
+            h1{
+                font-size: 40px;
+            }
+
+            h2{
+                font-size: 30px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+            
+            iframe{
+                width: 90%;
+                height: 22vh;
+            }
+        }
+}

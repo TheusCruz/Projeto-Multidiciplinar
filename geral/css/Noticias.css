@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+        .NoticiasPequenas,.NoticiasPequenas1{
+            background-color: rgb(0, 136, 255);
+            width: 260px;
+            height: 307px;
+        }
+    
+        .NoticiaGrande{
+            background-color: rgb(0, 136, 255);
+            width: 540px;
+            height: 307px;
+        }
+
+        @media (max-width: 1297px) {
+
+            .NoticiaGrande{
+                display: none;
+            }
+        }
+}
